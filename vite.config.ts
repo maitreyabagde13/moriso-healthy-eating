@@ -11,8 +11,8 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [react()],
 
-    // ⭐ REQUIRED FOR GITHUB PAGES + GODADDY
-    base: "./",
+    // ⭐ IMPORTANT FOR GITHUB PAGES
+    base: "/moriso-healthy-eating/",
 
     define: {
       'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
