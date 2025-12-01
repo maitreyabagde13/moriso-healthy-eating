@@ -1,0 +1,7 @@
+{
+  "name": "MORISO - Healthy Eating",
+  "description": "A cloud-kitchen-powered healthy eating brand for students and working professionals featuring a hostel mess optimiser.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
