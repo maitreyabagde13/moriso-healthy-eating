@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
 
     // ⭐ IMPORTANT FOR GITHUB PAGES
-    base: "/moriso-healthy-eating/",
+    base: "./",
 
     define: {
       'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
